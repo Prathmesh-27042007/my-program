@@ -1,0 +1,13 @@
+#include <stdio.h>
+void main(){
+   int water_level_of_tank;
+   printf("enter water level (betweeen 0-1000L):");
+   scanf("%d",&water_level_of_tank);
+   printf("you have entered %d water level");
+   if(water_level_of_tank<30){
+       printf("\nturn ON motor");
+   }
+   else{
+       printf("\nturn OFF motor");
+   }
+}
